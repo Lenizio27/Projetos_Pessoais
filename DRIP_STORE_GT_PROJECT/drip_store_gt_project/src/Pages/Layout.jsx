@@ -3,9 +3,11 @@ import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 const Layout = ({children}) => {
     return (  
-        <div>
+        <div className='col-12 md:col-12'>
             <Header />
-            {children}cuidaaaaaaaaaa
+
+            {children}
+
             <Footer />
         
         
