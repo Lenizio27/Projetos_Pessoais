@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import Section from '../Components/Section';    
 const Layout = ({children}) => {
     return (  
-        <div className='col-12 md:col-12 w-9 flex align-items-center'>
+        <div>
             <Header />
 
             {children}
+            <Section/>
 
             <Footer />
         
