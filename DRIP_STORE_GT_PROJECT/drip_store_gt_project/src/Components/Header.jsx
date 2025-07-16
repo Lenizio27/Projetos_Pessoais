@@ -11,38 +11,43 @@ import Logo from "./Logo";
 {/* Estrutura Header*/}
 const Header = () => {
     return ( 
-            <header className=' p-3 flex flex-column shadow-1  justify-content-center align-items-center'>
-                <div className="w-12 flex align-items-center  justify-content-around mx-6" style={{maxWidth: '1200px'}}>
-                    <Logo className='mr-3'/>
-                    <IconField>
-                        <InputIcon
-                            className='pi pi-search'
-                         />
-                        <InputText
-                            id='pesquisar'
-                            type="text"
-                            placeholder='pesquisar prduto...'
-                            className='w-12'
-                        />
-                    </IconField>
-                    <a href
-                        style={{color:"#474747",    textDecoration:"underline", textDecorationColor:"#474747"}} className='text-base'>Cadastra-se
-                    </a>
-                    <Button
-                        label="Submit" style={ {backgroundColor: '#C92071', border: 'none'}
-                    }/>
-                    <img src={miniCart} alt="" />
-                </div>
-                <div className="w-12" style={{ maxWidth: '1200px' }}>
-                    <nav className='p-3'>{/*Navegacao*/}
-                        <ul className='flex gap-3 list-none'>
-                            <li className='primary-500'>Home</li>
-                            <li className='pink-600'>Produtos</li>
-                            <li className='pink-600'>Categorias</li>
-                            <li className='pink-600'>Meus Pedidos</li>
-                        </ul>
-                    </nav>
-                </div>
+            <header className=' py-3 flex flex-column shadow-1  justify-content-center  align-items-center'>
+            
+                        <div style={{maxWidth: '1200px'}} className='w-full'>
+                            <div  className="w-full flex align-items-center  justify-content-between ">
+                                <Logo className='mr-3'/>
+                                <IconField>
+                                    <InputIcon
+                                        className='pi pi-search'
+                                        />
+                                    <InputText
+                                        id='pesquisar'
+                                        type="text"
+                                        placeholder='pesquisar prduto...'
+                                        className='w-12'
+                                    />
+                                </IconField>
+                                <a href
+                                    style={{color:"#474747",    textDecoration:"underline", textDecorationColor:"#474747"}} className='text-base'>Cadastra-se
+                                </a>
+                                <Button
+                                    label="Entrar" style={ {backgroundColor: '#C92071', border: 'none'}
+                                }/>
+                                <img src={miniCart} alt="" />
+                            </div>
+                            <div className="w-12" style={{ maxWidth: '1200px' }}>
+                                <nav className='p-3'>{/*Navegacao*/}
+                                    <ul className='flex gap-3 list-none'>
+                                        <li className='primary-500'>Home</li>
+                                        <li className='pink-600'>Produtos</li>
+                                        <li className='pink-600'>Categorias</li>
+                                        <li className='pink-600'>Meus Pedidos</li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                   
+                
             </header >
        
      );
