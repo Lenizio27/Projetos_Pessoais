@@ -7,7 +7,7 @@ const Informations = ({title,informations}) => {
                 <ul className="list-none flex flex-column gap-1 m-0 p-0">
                 {informations.map((info, index) => (
                 <li key={index} className="mb-2" >
-                <a href={info.link} className="no-underline">{info.text}</a>
+                    <a href={info.link} className="no-underline" style={{color:'var(--surface-0)'}}>{info.text}</a>
                 </li>
                          ))}
                 </ul>

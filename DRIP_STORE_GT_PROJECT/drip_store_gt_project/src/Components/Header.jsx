@@ -7,13 +7,14 @@ import 'primereact/resources/primereact.min.css'
 import { Button } from 'primereact/button';
 import miniCart from "../../src/assets/Images/mini-cart.svg"
 import Logo from "./Logo";
+import { Link, NavLink } from 'react-router-dom';
 
 {/* Estrutura Header*/}
 const Header = () => {
     return ( 
-            <header className=' py-3 flex flex-column shadow-1  justify-content-center  align-items-center'>
+            <header className='py-3 flex flex-column shadow-1  justify-content-center  align-items-center'>
             
-                        <div style={{maxWidth: '1200px'}} className='w-full'>
+                        <div style={{maxWidth: '1200px', minWidth:""}} className='col-5 md:col-12'>
                             <div  className="w-full flex align-items-center  justify-content-between ">
                                 <Logo className='mr-3'/>
                                 <IconField>
@@ -38,10 +39,10 @@ const Header = () => {
                             <div className="w-12" style={{ maxWidth: '1200px' }}>
                                 <nav className='p-3'>{/*Navegacao*/}
                                     <ul className='flex gap-3 list-none'>
-                                        <li className='primary-500'>Home</li>
-                                        <li className='pink-600'>Produtos</li>
-                                        <li className='pink-600'>Categorias</li>
-                                        <li className='pink-600'>Meus Pedidos</li>
+                                        <li className=''><NavLink to={"/home"}>Home</NavLink></li>
+                                        <li className=''></li>
+                                        <li className=''></li>
+                                        <li className=''></li>
                                     </ul>
                                 </nav>
                             </div>

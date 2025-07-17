@@ -1,13 +1,14 @@
 import { Button } from 'primereact/button';
 import redNike from '../../src/assets/Images/red_nike.png'
 
-const Section = () => {
+const Section = ({title}) => {
     return ( 
         <>
         {/* Melhores ofertas personalizadas*/}
             <section className='flex align-items-center flex-row justify-content-center'>
                 <div className="w-full flex align-items-center  justify-content-around mx-6" style={{maxWidth: '1200px'}}>
                     <div className='w-6'>
+                        <h1>{title}</h1>
                         <p>Melhores ofertas personalizadas</p>
                         <h1>Queima de stoque Nike</h1>
                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quo quia doloribus tempore voluptas aut alias beatae perferendis ipsum omnis, quibusdam voluptatibus veritatis, assumenda reiciendis dolorem dolores dignissimos? Molestias, hic.</h5>

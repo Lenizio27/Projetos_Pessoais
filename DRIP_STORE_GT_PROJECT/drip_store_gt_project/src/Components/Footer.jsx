@@ -28,11 +28,11 @@ const Footer = () => {
        ] 
     return ( 
         // estrutura footer
-      <footer style={{backgroundColor: '#474747'}} className=' w-full m-0 p-3 flex flex-column shadow-1 '>
+      <footer style={{backgroundColor: '#474747', color:'var(--surface-0)'}} className=' w-full m-0  flex flex-column shadow-1 '>
         
-        <div className="w-12 flex align-items-center justify-content-center gap-6 m-auto" style={{maxWidth: '1200px'}}>
+        <div className="w-12 flex align-items-center justify-content-center gap-6 m-auto" style={{maxWidth: '1200px', height: ''}}>
           
-          <div id="redes-socias" className="mb-6">
+          <div id="redes-socias" className="mb-6 w-4">
               <img src={LogoFooter} alt="" style={{width: '244px', height: '44px'}} />
               <p className=""> 
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br /> Eum maxime illo laudantium voluptas porro perferendis aut 
@@ -43,7 +43,7 @@ const Footer = () => {
                   <img src={LogoX} alt="" />
               </div>
           </div>
-          <div id="card-infomacaoes" className="flex flex-row gap-6">
+          <div id="card-infomacaoes" className="flex flex-row gap-6 w-8">
               <Informations
               title={"Informações"}
               informations={informacao}
@@ -58,8 +58,8 @@ const Footer = () => {
               />
           </div>
         </div>
-          <hr />
-          <p className="text-center">@ 2025 Digital College</p>
+            <hr className="w-full " />
+            <p className="text-center " >@ 2025 Digital College</p>
       </footer>
      );
 }
