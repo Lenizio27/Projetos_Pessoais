@@ -1,11 +1,12 @@
+import Paths from "../Paths/Paths";
 import Layout from "./Layout";
 
 const HomePage = () => {
     return ( 
         <>
-        <Layout />
-         <Section  title={"Ola mun"}/>
-
+            <Layout />
+         
+        
     
          
         

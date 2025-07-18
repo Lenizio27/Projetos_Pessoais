@@ -8,10 +8,12 @@ import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
 import Paths from './Paths/Paths';
 import './index.css'
+import HomePage from './Pages/HomePage';
 
 function App() {
   return (
     <>
+      
       <Paths />
       
     </>

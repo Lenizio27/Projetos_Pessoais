@@ -39,10 +39,10 @@ const Header = () => {
                             <div className="w-12" style={{ maxWidth: '1200px' }}>
                                 <nav className='p-3'>{/*Navegacao*/}
                                     <ul className='flex gap-3 list-none'>
-                                        <li className=''><NavLink to={"/home"}>Home</NavLink></li>
-                                        <li className=''></li>
-                                        <li className=''></li>
-                                        <li className=''></li>
+                                        <li><NavLink to={"/"} className="no-underline hover:underline active:underline" >Home</NavLink></li>
+                                        <li><NavLink to={"/productlisting"} className="no-underline hover:underline active:underline" >Produtos</NavLink></li>
+                                        <li><NavLink to={""} className="no-underline hover:underline active:underline" >Categorias</NavLink></li>
+                                        <li><NavLink to={""} className="no-underline hover:underline active:underline" >Meus Pedidos</NavLink></li>
                                     </ul>
                                 </nav>
                             </div>

@@ -58,7 +58,7 @@ const Footer = () => {
               />
           </div>
         </div>
-            <hr className="w-full " />
+            <hr className="w-full"style={{maxWidth: '1200px', height: ''}}/>
             <p className="text-center " >@ 2025 Digital College</p>
       </footer>
      );
