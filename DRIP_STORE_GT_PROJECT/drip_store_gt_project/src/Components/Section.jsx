@@ -1,10 +1,14 @@
 import { Button } from 'primereact/button';
 import redNike from '../../src/assets/Images/red_nike.png'
 
+import ProductCard from './ProductCard';
+
 const Section = ({title}) => {
     return ( 
         <>
+
         {/* Melhores ofertas personalizadas*/}
+
             <section className='flex align-items-center flex-row justify-content-center'>
                 <div className="w-full flex align-items-center  justify-content-around mx-6" style={{maxWidth: '1200px'}}>
                     <div className='w-6'>
@@ -23,22 +27,19 @@ const Section = ({title}) => {
                 </div>
             </section>
 
+            {/* Colecoes em destaque */}
+
             <section className='flex align-items-center flex-row justify-content-center'>
-                <div className="w-full flex mx-6 flex-column" style={{maxWidth: '1200px'}}>
-                    <h3 className=''>Coleções de destaque</h3>
-                    <div className='flex '>
-                        <div>
-                            <div className='flex flex-column'>
-                                <p>30% OFF</p>
-                                <h3>Novo drop Supreme</h3>
-                                <button>Comprar</button>
-                            </div>
-                            <img src="" alt="" />
-                        </div>
-                        
-                    </div>
-                </div>
+                
             </section>
+
+            {/* Produtos em alta */}
+
+            <section>
+
+            </section>
+
+            {/* Ofertas Especiais */}
         </>
      );
 }

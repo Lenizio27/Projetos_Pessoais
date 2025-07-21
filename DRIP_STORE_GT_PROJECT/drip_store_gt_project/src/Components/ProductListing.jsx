@@ -1,6 +1,10 @@
+import ProductCard from "./ProductCard";
+
 const ProductListing = () => {
     return ( 
-        <h1>PRODUTOs</h1>
+        <>
+            <ProductCard />
+        </>
      );
 }
  

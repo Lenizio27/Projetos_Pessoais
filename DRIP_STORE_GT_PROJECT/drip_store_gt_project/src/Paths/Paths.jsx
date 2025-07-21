@@ -13,7 +13,7 @@ const Paths = () => {
                 <Routes>
                     
                         <Route path="/" element={<HomePage />}/>
-                        <Route path="/productlisting" element={<ProductListingPage />}/>
+                        <Route path="/productListingPage" element={<ProductListingPage />}/>
                         <Route />
                         <Route />
                         <Route />
