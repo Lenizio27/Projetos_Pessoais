@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-const ProductCard = ({image, name, price, priceDiscount}) => {
-    return ( 
-        <>
-            
-        </>
-=======
+
+        
 const ProductCard = ({image,name,price,priceDiscount,category}) => {
     return ( 
+        <>
          <div className="surface-0 border-round shadow-2 p-3 flex flex-column align-items-center text-center" style={{ width: '292px' }}>
       <div className="relative">
         <img
@@ -49,7 +45,7 @@ const ProductCard = ({image,name,price,priceDiscount,category}) => {
         </div>
       </div>
     </div>
->>>>>>> 83fe0d7002be58535f98e273b4e1c0090bfb6950
+    </>
      );
 }
  
