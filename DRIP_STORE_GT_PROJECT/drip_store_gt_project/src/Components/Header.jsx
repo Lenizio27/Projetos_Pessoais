@@ -40,7 +40,7 @@ const Header = () => {
                                 <nav className='p-3'>{/*Navegacao*/}
                                     <ul className='flex gap-3 list-none'>
                                         <li><NavLink to={"/"} className="no-underline hover:underline active:underline" >Home</NavLink></li>
-                                        <li><NavLink to={"/productlisting"} className="no-underline hover:underline active:underline" >Produtos</NavLink></li>
+                                        <li><NavLink to={"/productListingPage"} className="no-underline hover:underline active:underline" >Produtos</NavLink></li>
                                         <li><NavLink to={""} className="no-underline hover:underline active:underline" >Categorias</NavLink></li>
                                         <li><NavLink to={""} className="no-underline hover:underline active:underline" >Meus Pedidos</NavLink></li>
                                     </ul>

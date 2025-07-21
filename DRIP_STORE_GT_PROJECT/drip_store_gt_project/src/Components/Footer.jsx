@@ -28,7 +28,7 @@ const Footer = () => {
        ] 
     return ( 
         // estrutura footer
-      <footer style={{backgroundColor: '#474747', color:'var(--surface-0)'}} className=' w-full m-0  flex flex-column shadow-1 '>
+      <footer style={{backgroundColor: '#1F1F1F', color:'var(--surface-0)'}} className=' w-full m-0  flex flex-column shadow-1 '>
         
         <div className="w-12 flex align-items-center justify-content-center gap-6 m-auto" style={{maxWidth: '1200px', height: ''}}>
           
