@@ -22,6 +22,23 @@ const Section = ({title}) => {
                     </div>
                 </div>
             </section>
+
+            <section className='flex align-items-center flex-row justify-content-center'>
+                <div className="w-full flex mx-6 flex-column" style={{maxWidth: '1200px'}}>
+                    <h3 className=''>Coleções de destaque</h3>
+                    <div className='flex '>
+                        <div>
+                            <div className='flex flex-column'>
+                                <p>30% OFF</p>
+                                <h3>Novo drop Supreme</h3>
+                                <button>Comprar</button>
+                            </div>
+                            <img src="" alt="" />
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
         </>
      );
 }
