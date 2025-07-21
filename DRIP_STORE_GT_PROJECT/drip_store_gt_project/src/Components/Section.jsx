@@ -33,25 +33,7 @@ const Section = ({title}) => {
             {/* Colecoes em destaque */}
 
             <section className='flex align-items-center flex-row justify-content-center'>
-<<<<<<< HEAD
-                <div className="w-full flex mx-6 flex-column" style={{maxWidth: '1200px'}}>
-                    <FeaturedCollections/>
-                </div>
-            </section>
-
-            <section className='flex align-items-center flex-row justify-content-center'>
-                <div className="w-full flex mx-6 flex-column" style={{maxWidth: '1200px'}}>
-                    <TendingProducts/>
-                </div>
-            </section>
-
-            <section className='flex align-items-center flex-row justify-content-center'>
-                <div className="w-full flex mx-6 flex-column" style={{maxWidth: '1200px'}}>
-                    <SpecialOffer/>
-                </div>
-=======
                 
->>>>>>> 83fe0d7002be58535f98e273b4e1c0090bfb6950
             </section>
 
             {/* Produtos em alta */}
